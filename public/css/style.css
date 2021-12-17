@@ -1,0 +1,123 @@
+/* Font CSS */
+h1 {
+    font-size: 64px;
+    color: #d4d4d4;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-size: 36px;
+    color: #d4d4d4;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    color: #d4d4d4;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #b9b9b9;
+}
+
+p {
+    color: #000000;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.description {
+    color: #000000;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.info {
+    color: #d4d4d4;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-justify: inter-word;
+}
+
+.footer {
+    color: #d4d4d4;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    text-justify: inter-word;
+    text-align: right;
+}
+
+/* Background CSS */
+body {
+    background-color: darkslategray;
+}
+
+/* Div CSS */
+.toolbar {
+    background-image: linear-gradient(#878787, #61767d);
+    outline-style: solid;
+    outline-width: thin;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 20px;
+    width: 100%;
+    justify-items: center;
+    position: static;
+    padding: 10px;
+    left: -10px;
+}
+
+/* Table CSS */
+table {
+    border-collapse: collapse;
+    float: left;
+    margin-right: 10px;
+}
+
+th, td {
+    text-align: center;
+    font-family: "Georgia", serif;
+    padding: 8px;
+    color: white;
+}
+
+th {
+    background-color: rgb(79, 47, 47);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(46, 92, 97);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(58, 105, 107);
+}
+
+tr:hover {
+    background-color: rgb(94, 194, 199);
+}
